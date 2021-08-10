@@ -1,0 +1,26 @@
+.message-child-1{
+	height : 88%;
+	min-width: 275px;
+	align-items: center;
+	text-align: center;
+	background: white;
+	border-radius: 12px;
+	padding: 10px;
+	margin-left : 20px;
+
+}
+.
+.chat-child-3{
+	width: 91%;
+	height:70px;
+	background-color:inherit;
+}
+
+.user-name{
+	margin: 0px;
+	font-size: 14px;
+	color:#696E75;
+	font-family: sans-serif;
+	font-weight: 600;
+	margin-top:15px;
+}

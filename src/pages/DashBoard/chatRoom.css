@@ -1,0 +1,11 @@
+.chatRoom-main-container{
+	background: #E4FFFF; 
+	height: 100vh;
+	display :flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 0px 30px;
+	display: flex;
+	justify-content: center;
+
+}
