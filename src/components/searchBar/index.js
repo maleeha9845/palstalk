@@ -1,8 +1,10 @@
 import React , { Component } from 'react';
 import ReactDOM from 'react-dom';
 import './searchBar.css';
+import {MdSend} from 'react-icons/md';
+import {withRouter ,BrowserRouter as Router ,Route} from "react-router-dom";
 
-class ChatOptions extends Component {
+class SearchBarDiv extends Component {
 
   constructor(props) {
      super(props);
@@ -13,11 +15,8 @@ class ChatOptions extends Component {
      this.onClick=this.onClick.bind(this);
    }
 
-   onClick(active , ExistingUser){
-    this.setState({
-      active:active,
-    
-     });
+   onClick(history){
+    history.push('/createRoom')
     }
 
   render() {
@@ -42,9 +41,14 @@ class ChatOptions extends Component {
            onChange= {this.props.handleChange}
            onFocus={this.props.onFocus}/>
           </div>
+
+          <div class ='create-btn'>
+            <div class = 'create-btn' onClick = {()=>this.onClick(this.props.history)}>Create Room</div>
+          </div>
+
       </div>
     );
   }
 }
 
-export default ChatOptions;
+export default withRouter(SearchBarDiv);

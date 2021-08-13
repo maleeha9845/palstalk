@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './text.css';
+import {withRouter ,BrowserRouter as Router ,Route} from "react-router-dom";
 
 import {ImSearch} from 'react-icons/im';
 import {IoMdNotifications} from 'react-icons/io';
@@ -12,8 +13,12 @@ class TextSectionHeader extends React.Component {
     this.state = {
     	
     };
-  
-  }
+   this.onClick=this.onClick.bind(this);
+   }
+
+   onClick(props){
+    props.push('/setting')
+    }
 
   render(){
     	return(
@@ -26,7 +31,7 @@ class TextSectionHeader extends React.Component {
           Number of participants
           <p > 28 </p>
           </div>
-        <div class = 'text-header-icon'>
+        <div class = 'text-header-icon' onClick = {()=> this.onClick(this.props.history)}>
            <BsThreeDots size = ' 18px' color='#497174' />
         </div>
 
@@ -37,4 +42,4 @@ class TextSectionHeader extends React.Component {
   	}
 }
 
-export default TextSectionHeader;
+export default withRouter(TextSectionHeader);

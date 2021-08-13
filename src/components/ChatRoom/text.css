@@ -1,6 +1,6 @@
 .section-container{
 	height : 100%;
-	width : calc(100vw - 365px);
+	width : calc(100vw - 480px);
 	min-width: 200px;
 	background: white;
 	align-items: center;
@@ -13,6 +13,7 @@
 	flex-direction: column;
 	padding: 15px 15px 0px 15px; 
 	position: relative;
+	margin-left: 100px;
 }
 
 .text-header{
