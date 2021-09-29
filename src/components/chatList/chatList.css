@@ -134,7 +134,7 @@
 	height:14px;
 	min-width: 14px;
 	border-radius: 50%;
-	background: aqua;
+	background: #1d92af;
 	display: flex;
 	text-align: center;
 	align-items: center;
@@ -149,7 +149,7 @@
 	font-size: 16px;
 	font-weight: 600;
 	font-family: sans-serif;
-	color:aqua;
+	color:#1d92af;
 	text-align: left;
 	margin: 0px;
 	padding: 5px;

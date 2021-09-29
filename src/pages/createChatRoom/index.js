@@ -15,6 +15,10 @@ class CreateChatRoom extends React.Component {
   
   }
 
+  onClick(history){
+    history.push('/dash')
+    }
+    
   render(){
     	return(
     		<div class = 'createRoom-main-container'>
@@ -27,7 +31,7 @@ class CreateChatRoom extends React.Component {
             <InputField tittle = 'Create Password' placeholder = 'enter new password...' type = 'password'/>
 
             
-              <div class = 'create' >Create</div>
+              <div class = 'create' onClick = {()=> this.onClick(this.props.history)}>Create</div>
             
 
           </div>  

@@ -1,5 +1,5 @@
 .createRoom-main-container{
-	background: #E4FFFF; 
+	background: #1d92af; 
 	height: 100vh;
 	width:100vw;
 	display :flex;
@@ -27,13 +27,13 @@
 	font-size: 20px;
 	font-family: sans-serif;
 	font-weight: 900;
-	color:aqua;
+	color:#1d92af;
 	margin-bottom: 10px;
 }
 .create{
 	height:40px;
     width: 95px;
-    background: aqua;
+    background: #419995;
     box-sizing: border-box;
     border-radius: 8px;
     display: flex;

@@ -14,7 +14,7 @@
 	border-radius: 8px;
 	box-sizing: border-box;
 	border : 1px solid #EFF5F5;
-	background-color: ;
+	/* background-color: #419995; */
 }
 .search-iputfield{
 	height:99%;
@@ -30,7 +30,7 @@
 .create-btn{
 	height:40px;
     width: 95px;
-    background: aqua;
+    background: #1d92af;
     box-sizing: border-box;
     border-radius: 8px;
     display: flex;

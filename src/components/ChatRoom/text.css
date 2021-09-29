@@ -70,7 +70,7 @@
 .text-header-icon{
 	height:100%;
 	width: 45px;
-	background:aqua;
+	background:#1d92af;
  	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -106,7 +106,7 @@
 	height:45px;
 	padding: 15px;
 	width:95px;
-	background:aqua;
+	background:#1d92af;
 	box-sizing: border-box;
 	border-radius: 8px;
 	display: flex;
@@ -318,5 +318,5 @@
 .text-user-name{
 	font-size: 12px;
 	padding-bottom:10px;
-	color : aqua;
+	color : #1d92af;
 }

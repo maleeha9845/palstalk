@@ -12,7 +12,7 @@ render(){
     return (
       <div class = 'input-container'>
 
-        <div class = 'input-tittle'>{this.props.tittle}</div>
+        {/* <div class = 'input-tittle'>{this.props.tittle}</div> */}
 
         <input class = "iputfield" placeholder = {this.props.placeholder}  
            type={this.props.type}
